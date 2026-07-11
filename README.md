@@ -18,5 +18,4 @@ protocol, Python.
 Day job: Agentic AI Platform at Lloyds Banking Group. Previously Barclays 
 and LTI/Citi.
 
-IIM Bangalore MBA. GCP Professional Cloud Architect. AWS ML Engineer 
-Associate.
+IIM Bangalore MBA. Google Cloud Professional Cloud Architect. AZ-900 Microsoft Azure 
