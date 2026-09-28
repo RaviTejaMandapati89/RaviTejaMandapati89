@@ -1,21 +1,11 @@
 # Ravi Teja Mandapati
 
-Product Manager working on agentic AI platforms in financial services.
+Product lead for agentic AI platforms in regulated financial services. I build to understand what's actually hard behind a clean product spec.
 
-I build things to understand them better. The gap between what looks clean 
-in a product spec and what's actually hard to build is where most of the 
-interesting decisions live. Most of what's here comes from trying to close 
-that gap.
+**kyc-aml-multiagent**: a governed multi-agent compliance system. Every MCP tool call passes one policy enforcement point backed by an ABAC decision engine (default-deny, rules as data). Agent-to-agent handoffs carry signed workload-identity tokens bound to the payload, tested against nine attack cases. DESIGN.md records the decisions and trade-offs; docs/verified-run.md shows it running.
 
-Current focus is multi-agent orchestration — how agents discover each other, 
-hand off tasks, and stay auditable in regulated environments. The compliance 
-domain is a good forcing function for this because the constraints are real 
-and the failure modes matter.
+Current focus: agent identity and authorisation, meaning who an agent is, who it acts for, and what it may do at each hop.
 
-Stack I'm working with: Google Vertex AI, AWS Bedrock, LangGraph, MCP, A2A 
-protocol, Python.
+Stack in this repo: Gemini, AWS Bedrock Agents, LangGraph, MCP, A2A, OpenTelemetry, Python.
 
-Day job: Agentic AI Platform at Lloyds Banking Group. Previously Barclays 
-and LTI/Citi.
-
-IIM Bangalore MBA. Google Cloud Professional Cloud Architect. AZ-900 Microsoft Azure 
+Day job: agentic AI platforms at Lloyds Banking Group. Previously Barclays and LTI/Citi. IIM Bangalore MBA. GCP Professional Cloud Architect
